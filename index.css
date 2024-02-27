@@ -66,3 +66,18 @@ h3 {
   font-size: 33px;
   font-weight: 300;
 }
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: blue;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+}
